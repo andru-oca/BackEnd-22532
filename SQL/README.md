@@ -15,6 +15,10 @@ Modelo entidad Relacion
 
 # DER
 ---
+### DER creado con excalidraw de un registro de padres
+- [registro_padres DER](https://excalidraw.com/#json=WiL6iyOHNwNUrViUIgEoM,YDzDurlYuSUSCG0z4Mfg1g)
+
+
 Links para generar DER's
 - [DRAW io](https://app.diagrams.net/)
 - [Excalidraw](https://excalidraw.com/)
