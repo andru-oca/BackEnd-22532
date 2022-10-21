@@ -51,7 +51,8 @@ https://dev.mysql.com/downloads/mysql/
 Siempre recordar el usuario root y su password
 
 
-Conexion y creacion de usuario con tipo de conexión vieja.
+## Conexion y creacion de usuario con tipo de conexión vieja.
+--- 
 
 Extensiones a usar: 
 SQL tools | MySQL 
@@ -74,6 +75,23 @@ Sakila :
 Buscar formas distintas de importar esa db (recomendacion de consola)
 
 
+---
+# MUY IMPORTANTE ES SABER DONDE HAN INSTALADO EL SERVIDOR, POR LO GENERAL EL SERVIDOR EN WINDOWS SE TERMINA GUARDANDO EN LA CARPETA QUE SE ENCUENTRA EN PROGRAM FILES\
+_C:\Program Files\MySQL\MySQL Server 8.0\bin>_
+---
+# BACKUP RAPIDO POR CONSOLA
+---
+* Parados en la ruta donde se encuentra el archivo mysqldump:\
+  - _C:\Program Files\MySQL\MySQL Server 8.0\bin>mysqldump -u root -p <nombre_de_la_base_de_datos> > <nombre_del_bk_con_la_ruta.sql>_
+
+
+# RESTORE RAPIDO POR CONSOLA
+*IDEM anterior pero con la flechita al revés
+  - Previo a esto deben crear una base con el nombre que quieran crear.
+  - _C:\Program Files\MySQL\MySQL Server 8.0\bin>mysqldump -u root -p <nombre_de_la_base_de_datos> < <nombre_del_bk_con_la_ruta.sql>
+---
+
+---
 
 # CONCEPTOS BASICOS DE CREACION INSERCION Y ELIMINACION DE DATOS
 
